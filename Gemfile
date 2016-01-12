@@ -24,6 +24,9 @@ gem "traceroute"
 gem "rails_12factor", group: :production
 gem "populator"
 gem 'will_paginate'
+gem 'ruby-growl'
+
+gem "bullet", :group => "development"
 
 group :development, :test do
   gem "pry-rails"
